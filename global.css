@@ -3,9 +3,13 @@
     padding: 0;
 }
 
-.color-section{
-     display: flex;
-     height: 100vh;
-     width: 100%;
+html{
+    /* Ativa a rolagem suave nativa para links âncoras */
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.section_nav{
+    display: flex;
 }
 
