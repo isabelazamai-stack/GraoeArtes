@@ -1,3 +1,6 @@
+@import url(./DesignSystem.css);
+@import url(./responsive.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -11,5 +14,80 @@ html{
 
 .section_nav{
     display: flex;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 260px;
+    background-color: var(--ui-bg-sidebar);
+    padding: 30px 20px;
+    border-right: 1px solid var(--ui-border);
 }
+
+.section_title{
+    color: var(----color-text-muted);
+    font-size: 20px;
+    /* peso da fonte NÃO utiliza PX */
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-align: center;
+    /* Espaço entre as letras */
+    letter-spacing: 0.5px;
+
+}
+
+.section__menu{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.section_nav_link{
+    color: var(--color-text-muted);
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    /* Quando um elemento perde o foco/ganha o foco */
+    transition: all 0.2s ease-in-out;
+}
+
+.section_nav_link--active{
+
+    color: var(--color-text-muted);
+    background-color: var(--ui-link-active-bg);
+    /* Sombra V H blu spread color */
+    box-shadow: 0 1px 6px rgba(255, 22, 22, 0.25);
+
+}
+
+.section_nav_link--active:hover{
+    /* alterar o formato do elemento */
+    transform: scale(1.05);
+}
+
+.section-inicio{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.conteudo-principal_esquerda{
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao-principal_esquerda{
+    justify-content: center;
+}
+
+img{
+    justify-content: center;
+    width: 50vh;
+    height: 100px;
+}
+
+
 
