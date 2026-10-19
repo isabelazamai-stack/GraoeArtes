@@ -18,11 +18,8 @@ html{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 260px;
-    background-color: var(--ui-bg-sidebar);
-    padding: 30px 20px;
-    border-right: 1px solid var(--ui-border);
+    justify-content: flex-end;
+    color: aquamarine ;
 }
 
 .section_title{
@@ -45,7 +42,7 @@ html{
 }
 
 .section_nav_link{
-    color: var(--color-text-muted);
+    color: brown;
     text-decoration: none;
     font-size: 14px;
     text-align: center;
@@ -83,8 +80,8 @@ html{
     justify-content: center;
 }
 
-img{
-    justify-content: center;
+.conteudo-principal_direita{
+    justify-content: flex-end;
     width: 50vh;
     height: 100px;
 }
