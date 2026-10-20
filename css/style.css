@@ -63,9 +63,13 @@
     min-height: 500px;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    
+    justify-content: space-between;           
+    max-width: 1100px;              
+    margin: 60px auto;             
+    padding: 0 20px;
+    gap: 50px; 
 }
+
 
 .brands{
     padding: 30px;
